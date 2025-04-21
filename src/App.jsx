@@ -48,7 +48,7 @@ const App = () => {
   const filteredTasks = tasks.filter((task) => {
     if (filter === "completadas") return task.completed;
     if (filter === "pendientes") return !task.completed;
-    return true; // "todas"
+    return true; 
   });
 
   return (

@@ -28,14 +28,14 @@ const TaskForm = ({ onsubmit, taskToEdit }) => {
         type="text"
         value={taskName}
         onChange={(e) => setTaskName(e.target.value)}
-        placeholder="Ingrese el nombre de la tarea"
+        placeholder="Titulo Tarea"
         className="w-full p-2 border rounded-md"
       />
       <input
         type="text"
         value={taskDescription}
         onChange={(e) => setTaskDescription(e.target.value)}
-        placeholder="Ingresa descripcion"
+        placeholder="Descripcion"
         className="w-full p-2 border rounded-md"
       />
       <button
